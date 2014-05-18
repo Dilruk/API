@@ -1,0 +1,11 @@
+CREATE DATABASE phpApi1;
+USE phpApi1;
+
+CREATE TABLE test(
+id INT AUTO_INCREMENT,
+firstName VARCHAR(50),
+lastName VARCHAR(50),
+age INT(3),
+description VARCHAR(250),
+PRIMARY KEY(id)
+);
